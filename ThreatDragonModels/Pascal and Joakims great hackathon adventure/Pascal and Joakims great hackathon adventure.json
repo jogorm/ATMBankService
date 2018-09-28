@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "Pascal and Joakims great hackathon adventure",
+    "owner": "Pascal"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Threat modelling",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Pascal"
+  }
+}
