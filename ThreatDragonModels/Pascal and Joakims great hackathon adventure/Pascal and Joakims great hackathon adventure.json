@@ -50,7 +50,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 0"
+                  "text": "Process"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -78,7 +78,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 1"
+                  "text": "Actor"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -128,22 +128,33 @@
                 "height": 80
               },
               "position": {
-                "x": 467,
-                "y": 262
+                "x": 526,
+                "y": 232
               },
               "angle": 0,
               "id": "ee86baf2-5bef-490e-949b-f9d12ce45edf",
               "z": 4,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "Stop it"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 3"
+                  "text": "DB"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -151,10 +162,10 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "4b06d7af-9e97-4c0a-9f43-6649bf2ecc84"
+                "id": "ee86baf2-5bef-490e-949b-f9d12ce45edf"
               },
               "target": {
-                "id": "ee86baf2-5bef-490e-949b-f9d12ce45edf"
+                "id": "4b06d7af-9e97-4c0a-9f43-6649bf2ecc84"
               },
               "vertices": [],
               "id": "4466594a-c8b5-45f5-92bb-7317c390d53a",
@@ -188,16 +199,17 @@
                 "height": 100
               },
               "position": {
-                "x": 149,
-                "y": 97
+                "x": 87,
+                "y": 104
               },
               "angle": 0,
               "id": "7c119d72-2bd6-44bc-87b3-e32b2c2a2e26",
               "z": 6,
               "hasOpenThreats": false,
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "process 5"
@@ -245,52 +257,17 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 337,
-                "y": 34
+                "x": 328,
+                "y": 22
               },
               "target": {
-                "x": 371,
-                "y": 155
+                "x": 386,
+                "y": 176
               },
-              "vertices": [
-                {
-                  "x": 353,
-                  "y": 70
-                },
-                {
-                  "x": 364,
-                  "y": 109
-                }
-              ],
-              "id": "bc5cf23d-e51d-4f93-8a7a-80026e30d8fa",
+              "vertices": [],
+              "id": "14a73a63-df2e-400b-9668-b7529fdca56f",
               "z": 8,
               "attrs": {}
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 269,
-                "y": 259
-              },
-              "angle": 0,
-              "id": "ebf14bdb-2427-4773-9324-66c59ff892d3",
-              "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "process 8"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
             }
           ]
         },
