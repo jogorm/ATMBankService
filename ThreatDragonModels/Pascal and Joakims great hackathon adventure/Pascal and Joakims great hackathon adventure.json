@@ -19,8 +19,8 @@
                 "height": 100
               },
               "position": {
-                "x": 395,
-                "y": 22
+                "x": 396,
+                "y": 20
               },
               "angle": 0,
               "id": "4b06d7af-9e97-4c0a-9f43-6649bf2ecc84",
@@ -265,6 +265,32 @@
               "id": "bc5cf23d-e51d-4f93-8a7a-80026e30d8fa",
               "z": 8,
               "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 269,
+                "y": 259
+              },
+              "angle": 0,
+              "id": "ebf14bdb-2427-4773-9324-66c59ff892d3",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 8"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
